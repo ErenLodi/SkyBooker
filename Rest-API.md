@@ -1,15 +1,16 @@
-**Rest API Adresi:** [abc.com](abc.com)
+# REST API Görev Dağılımı
 
-REST API Görev Dağılımı
+**REST API Adresi:** [api.yazmuh.com](https://api.yazmuh.com)
 
-# Ali Atabin Rest API Metotları#
-1. Kayıt Ol
-2. Giriş Yap
-3. 2FA Sayfası
-4. .....
-5. .....
+Bu dokümanda, proje ekibindeki her üyenin geliştirmekten sorumlu olduğu REST API metotları listelenmektedir.
 
+---
 
-# Ayşe Toputut Rest API Metotları #
-1. ....
-2. ....
+## Grup Üyelerinin REST API Metotları
+
+1. [Ali Atabak'ın REST API Metotları](Ali-Rest-API-Gorevleri.md)
+2. [Grup Üyesi 2'nin REST API Metotları](Grup-Uyesi-2-Rest-API-Gorevleri.md)
+3. [Grup Üyesi 3'ün REST API Metotları](Grup-Uyesi-3-Rest-API-Gorevleri.md)
+4. [Grup Üyesi 4'ün REST API Metotları](Grup-Uyesi-4-Rest-API-Gorevleri.md)
+5. [Grup Üyesi 5'in REST API Metotları](Grup-Uyesi-5-Rest-API-Gorevleri.md)
+6. [Grup Üyesi 6'nın REST API Metotları](Grup-Uyesi-6-Rest-API-Gorevleri.md)

@@ -2,6 +2,25 @@
 
 Bu doküman, OpenAPI Specification (OAS) 3.0 standardına göre hazırlanmış örnek bir API tasarımını içermektedir.
 
+## OpenAPI Nedir?
+
+**OpenAPI** (eski adıyla Swagger), RESTful API'lerin tasarımı, dokümantasyonu ve kullanımı için kullanılan açık bir spesifikasyondur. OpenAPI, API'lerin yapısını, endpoint'lerini, parametrelerini, request/response formatlarını ve güvenlik gereksinimlerini standart bir formatta tanımlamanıza olanak sağlar.
+
+### Temel Özellikler:
+
+- **Standart Format**: YAML veya JSON formatında API'yi tanımlar
+- **Otomatik Dokümantasyon**: Swagger UI gibi araçlarla interaktif dokümantasyon oluşturur
+- **Kod Üretimi**: Client ve server kodlarını otomatik olarak üretebilir
+- **Test Kolaylığı**: API'leri doğrudan dokümantasyondan test edebilirsiniz
+- **Takım İşbirliği**: Frontend ve backend ekipleri arasında net bir sözleşme sağlar
+
+### Neden Kullanılır?
+
+1. **Tutarlılık**: Tüm API'ler aynı standartta dokümante edilir
+2. **Zaman Tasarrufu**: Otomatik dokümantasyon ve kod üretimi
+3. **Hata Azaltma**: API tasarımı kodlamadan önce netleşir
+4. **Kolay Entegrasyon**: Farklı ekipler ve sistemler arasında entegrasyon kolaylaşır
+
 ## Genel Bakış
 
 Bu örnek, bir e-ticaret platformu için kullanıcı ve ürün yönetimi API'sini göstermektedir.
@@ -23,16 +42,16 @@ info:
   version: 1.0.0
   contact:
     name: API Destek Ekibi
-    email: api-support@example.com
-    url: https://api.example.com/support
+    email: api-support@yazmuh.com
+    url: https://api.yazmuh.com/support
   license:
     name: MIT
     url: https://opensource.org/licenses/MIT
 
 servers:
-  - url: https://api.example.com/v1
+  - url: https://api.yazmuh.com/v1
     description: Production server
-  - url: https://staging-api.example.com/v1
+  - url: https://staging-api.yazmuh.com/v1
     description: Staging server
   - url: http://localhost:3000/v1
     description: Development server
@@ -154,6 +173,10 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/User'
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+        '403':
+          $ref: '#/components/responses/Forbidden'
         '404':
           $ref: '#/components/responses/NotFound'
     
@@ -180,6 +203,12 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/User'
+        '400':
+          $ref: '#/components/responses/BadRequest'
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+        '403':
+          $ref: '#/components/responses/Forbidden'
         '404':
           $ref: '#/components/responses/NotFound'
     
@@ -196,6 +225,10 @@ paths:
       responses:
         '204':
           description: Kullanıcı başarıyla silindi
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+        '403':
+          $ref: '#/components/responses/Forbidden'
         '404':
           $ref: '#/components/responses/NotFound'
 
@@ -409,6 +442,10 @@ components:
           format: date-time
           description: Güncellenme tarihi
           example: "2024-01-20T14:45:00Z"
+        phone:
+          type: string
+          description: Telefon numarası
+          example: "+905551234567"
 
     UserRegistration:
       type: object
@@ -441,11 +478,20 @@ components:
       properties:
         firstName:
           type: string
+          minLength: 2
+          example: "Ahmet"
         lastName:
           type: string
+          minLength: 2
+          example: "Yılmaz"
         email:
           type: string
           format: email
+          example: "yeniemail@example.com"
+        phone:
+          type: string
+          description: Telefon numarası
+          example: "+905551234567"
 
     LoginCredentials:
       type: object
@@ -758,6 +804,16 @@ components:
           example:
             code: "NOT_FOUND"
             message: "İstenen kaynak bulunamadı"
+    
+    Forbidden:
+      description: Erişim reddedildi
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/Error'
+          example:
+            code: "FORBIDDEN"
+            message: "Bu işlem için yetkiniz bulunmamaktadır"
 ```
 
 ## API Tasarım Prensipleri
@@ -798,7 +854,7 @@ components:
 
 ### Kullanıcı Kaydı
 ```bash
-curl -X POST https://api.example.com/v1/auth/register \
+curl -X POST https://api.yazmuh.com/v1/auth/register \
   -H "Content-Type: application/json" \
   -d '{
     "email": "kullanici@example.com",
@@ -810,7 +866,7 @@ curl -X POST https://api.example.com/v1/auth/register \
 
 ### Giriş Yapma
 ```bash
-curl -X POST https://api.example.com/v1/auth/login \
+curl -X POST https://api.yazmuh.com/v1/auth/login \
   -H "Content-Type: application/json" \
   -d '{
     "email": "kullanici@example.com",
@@ -820,12 +876,12 @@ curl -X POST https://api.example.com/v1/auth/login \
 
 ### Ürün Listesi (Filtreleme ile)
 ```bash
-curl -X GET "https://api.example.com/v1/products?category=Elektronik&minPrice=1000&page=1&limit=20"
+curl -X GET "https://api.yazmuh.com/v1/products?category=Elektronik&minPrice=1000&page=1&limit=20"
 ```
 
 ### Yeni Sipariş Oluşturma
 ```bash
-curl -X POST https://api.example.com/v1/orders \
+curl -X POST https://api.yazmuh.com/v1/orders \
   -H "Authorization: Bearer <JWT_TOKEN>" \
   -H "Content-Type: application/json" \
   -d '{
