@@ -124,15 +124,8 @@ Fork yaptıktan sonra projeyi kendi bilgilerinizle güncellemeniz gerekmektedir:
 - **Fork işlemi:** Sadece grup lideri veya seçilen bir üye fork yapmalıdır. Tüm grup üyelerinin ayrı ayrı fork yapmasına gerek yoktur.
 - **Collaborator ekleme:** Fork'u yapan kişi, diğer tüm grup üyelerini collaborator olarak eklemelidir.
 - **Repo adı:** Fork yaptıktan sonra repo adını proje adınız ile değiştirmeyi unutmayın.
+- **Klasör yapısı:** Her grup üyesi kendi klasörünü oluşturmalıdır. Klasör adı formatı: `[İsim-Soyisim]` (örn: `Ali-Tutar/`, `Veli-Yılmaz/`). Her grup üyesinin tüm dosyaları (gereksinimler, REST API görevleri, frontend görevleri vb.) kendi klasöründe bulunmalıdır.
 - **Tüm placeholder'ları değiştirin:** (örn: [Grup Üyesi 2], [Soyisim], PROJE ADI vb.) kendi bilgilerinizle değiştirin
 - **Dokümantasyon:** Tüm dokümantasyon dosyalarını eksiksiz doldurun
 - **Görev dağılımı:** Her ekip üyesi kendi görevlerini tamamlamalıdır
 - **İşbirliği:** Collaborator olarak eklenen üyeler, projeye doğrudan commit ve push yapabilirler
-
----
-
-## Notlar
-
-- Tüm dokümantasyon dosyaları proje kök dizininde bulunmaktadır.
-- Her dokümantasyon dosyası ilgili bölümün detaylı açıklamalarını içermektedir.
-- Proje geliştirme sürecinde dokümantasyonlar güncel tutulmalıdır.
