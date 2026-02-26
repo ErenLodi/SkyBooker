@@ -1,6 +1,5 @@
 # SkyBooker Uçuş Rezervasyon Sistemi
 
-> **Not:** Bu bölüm proje adı ile güncellenmelidir.
 
 ---
 
