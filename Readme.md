@@ -21,8 +21,8 @@
 
 ## Proje Linkleri
 
-- **REST API Adresi:** [api.yazmuh.com](https://api.yazmuh.com)
-- **Web Frontend Adresi:** [frontend.yazmuh.com](https://frontend.yazmuh.com)
+- **REST API Adresi:** [api.skybooker.local](http://localhost:5001) *(Proje ayağa kalktığında güncellenecektir)*
+- **Web Frontend Adresi:** [web.skybooker.local](http://localhost:5002) *(Proje ayağa kalktığında güncellenecektir)*
 
 ---
 
