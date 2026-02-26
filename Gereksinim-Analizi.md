@@ -22,15 +22,18 @@ Tüm gereksinimlerinizi çıkardıktan sonra beraber tartışıyoruz ve son gere
 
 # Tüm Gereksinimler 
 
-1. **Giriş Yapma** (Ali Tutar)
-2. **Üye Olma** (Ali Tutar)
-3. ..
-4. ..
+1. **Yeni Kullanıcı Kaydı Oluşturma** (Nuri Eren Lodi)
+2. **Kullanıcı Girişi ve Token Alma** (Nuri Eren Lodi)
+3. **Kullanıcı Profilini Güncelleme** (Nuri Eren Lodi)
+4. **Kullanıcı Hesabını Silme** (Nuri Eren Lodi)
+5. **Yeni Uçuş Seferi Ekleme** (Nuri Eren Lodi)
+6. **Uçuşları Arama** (Nuri Eren Lodi)
+7. **Uçuş Bilgilerini Güncelleme** (Nuri Eren Lodi)
+8. **Uçuş Seferini İptal Etme** (Nuri Eren Lodi)
+9. **Bilet Rezervasyonu Oluşturma** (Nuri Eren Lodi)
+10. **Geçmiş Rezervasyonları Görüntüleme** (Nuri Eren Lodi)
+11. **Rezervasyon İptali** (Nuri Eren Lodi)
+
 # Gereksinim Dağılımları
 
-1. [Ali Tutar'ın Gereksinimleri](Ali-Tutar/Ali-Tutar-Gereksinimler.md)
-2. [Grup Üyesi 2'nin Gereksinimleri](Grup-Uyesi-2/Grup-Uyesi-2-Gereksinimler.md)
-3. [Grup Üyesi 3'ün Gereksinimleri](Grup-Uyesi-3/Grup-Uyesi-3-Gereksinimler.md)
-4. [Grup Üyesi 4'ün Gereksinimleri](Grup-Uyesi-4/Grup-Uyesi-4-Gereksinimler.md)
-5. [Grup Üyesi 5'in Gereksinimleri](Grup-Uyesi-5/Grup-Uyesi-5-Gereksinimler.md)
-6. [Grup Üyesi 6'nın Gereksinimleri](Grup-Uyesi-6/Grup-Uyesi-6-Gereksinimler.md)
+1. [Nuri Eren Lodi'nin Gereksinimleri](Nuri-Eren-Lodi/Nuri-Eren-Lodi-Gereksinimler.md)
