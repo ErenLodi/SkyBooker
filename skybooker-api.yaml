@@ -1,14 +1,3 @@
-# REST API Tasarımı
-
-Projemize ait OpenAPI (Swagger) formatındaki API tasarım dosyasına aşağıdaki bağlantıdan ulaşabilirsiniz:
-
-👉 [SkyBooker API YAML Dosyasını İndir / Görüntüle](skybooker-api.yaml)
-
----
-
-## OpenAPI Formatında Tasarım İçeriği
-
-```yaml
 openapi: 3.0.3
 info:
   title: SkyBooker Uçuş Rezervasyon API
@@ -24,7 +13,7 @@ info:
 servers:
   - url: http://localhost:5001/api
     description: Yerel Geliştirme Sunucusu (Development)
-  - url: [https://api.skybooker.com/v1](https://api.skybooker.com/v1)
+  - url: https://api.skybooker.com/v1
     description: Canlı Sunucu (Production)
 
 tags:
