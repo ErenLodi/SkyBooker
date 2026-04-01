@@ -1,0 +1,72 @@
+﻿@model SkyBooker.Web.Models.UserViewModel
+
+@{
+    ViewData["Title"] = "Profilim";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card shadow-lg border-0 rounded-lg">
+                <div class="card-header bg-primary text-white text-center py-3">
+                    <h3 class="fw-bold mb-0">👤 Profil Bilgilerim</h3>
+                    <p class="mb-0 text-white-50">Kişisel bilgilerinizi buradan güncelleyebilir veya hesabınızı silebilirsiniz.</p>
+                </div>
+                <div class="card-body p-4">
+
+                    @if (TempData["Basari"] != null)
+                    {
+                        <div class="alert alert-success fw-bold text-center">✅ @TempData["Basari"]</div>
+                    }
+                    @if (TempData["Hata"] != null)
+                    {
+                        <div class="alert alert-danger fw-bold text-center">❌ @TempData["Hata"]</div>
+                    }
+
+                    <form asp-action="Profilim" asp-controller="Home" method="post" class="mb-5">
+                        <input type="hidden" asp-for="Id" />
+                        
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <label class="form-label fw-bold text-muted">Adınız</label>
+                                <input type="text" asp-for="FirstName" class="form-control form-control-lg" required />
+                            </div>
+                            <div class="col-md-6">
+                                <label class="form-label fw-bold text-muted">Soyadınız</label>
+                                <input type="text" asp-for="LastName" class="form-control form-control-lg" required />
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label fw-bold text-muted">E-Posta Adresi (Kullanıcı Adı)</label>
+                            <input type="email" asp-for="Email" class="form-control form-control-lg" required />
+                        </div>
+
+                        <div class="mb-4">
+                            <label class="form-label fw-bold text-muted">Şifreniz</label>
+                            <input type="text" asp-for="PasswordHash" class="form-control form-control-lg" required />
+                            <small class="text-muted">Güvenliğiniz için şifrenizi kimseyle paylaşmayınız.</small>
+                        </div>
+
+                        <div class="d-grid">
+                            <button type="submit" class="btn btn-success btn-lg fw-bold shadow-sm">💾 Değişiklikleri Kaydet</button>
+                        </div>
+                    </form>
+
+                    <hr />
+
+                    <div class="alert alert-danger mt-4 d-flex justify-content-between align-items-center">
+                        <div>
+                            <h5 class="fw-bold mb-1 text-danger">⚠️ Tehlikeli Bölge</h5>
+                            <p class="mb-0 text-muted small">Hesabınızı silerseniz biletleriniz dahil tüm verileriniz kalıcı olarak kaybolur. Bu işlem geri alınamaz.</p>
+                        </div>
+                        <form asp-action="HesapSil" asp-controller="Home" method="post" onsubmit="return confirm('Bu çok tehlikeli bir işlemdir! Hesabınızı kalıcı olarak silmek istediğinize emin misiniz?');">
+                            <button type="submit" class="btn btn-danger fw-bold shadow-sm">🗑️ Hesabımı Sil</button>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

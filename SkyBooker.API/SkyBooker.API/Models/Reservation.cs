@@ -7,6 +7,10 @@ namespace SkyBooker.API.Models
     {
         [Key]
         public int Id { get; set; }
+
+        // YENİ EKLENEN KİLİT ALAN: Biletin kime ait olduğunu tutar!
+        public int UserId { get; set; }
+
         public int FlightId { get; set; }
         public string PassengerName { get; set; } = string.Empty;
         public string SeatNumber { get; set; } = string.Empty;

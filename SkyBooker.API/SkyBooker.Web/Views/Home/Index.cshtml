@@ -1,0 +1,92 @@
+﻿@model List<SkyBooker.Web.Models.FlightViewModel>
+
+@{
+    ViewData["Title"] = "Ana Sayfa - Uçuşlar";
+}
+
+<div class="container mt-5">
+    <div class="text-center mb-4">
+        <h2 class="text-primary fw-bold">✈️ SkyBooker Güncel Uçuş Seferleri</h2>
+        <p class="text-muted">Canlı API üzerinden çekilen en güncel uçuşlarımız.</p>
+    </div>
+
+    <div class="card shadow-sm border-0 mb-4 bg-light">
+        <div class="card-body">
+            <form asp-controller="Home" asp-action="Index" method="get" class="row g-3 align-items-end">
+                <div class="col-md-5">
+                    <label class="form-label fw-bold text-muted">🛫 Nereden (Kalkış)</label>
+                    <input type="text" name="kalkis" class="form-control form-control-lg" placeholder="Örn: Antalya" value="@Context.Request.Query["kalkis"]" />
+                </div>
+                <div class="col-md-5">
+                    <label class="form-label fw-bold text-muted">🛬 Nereye (Varış)</label>
+                    <input type="text" name="varis" class="form-control form-control-lg" placeholder="Örn: İzmir" value="@Context.Request.Query["varis"]" />
+                </div>
+                <div class="col-md-2 d-grid">
+                    <button type="submit" class="btn btn-primary btn-lg fw-bold shadow-sm">🔍 Uçuş Ara</button>
+                    <a asp-controller="Home" asp-action="Index" class="btn btn-sm btn-outline-secondary mt-2">Sıfırla</a>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    @if (TempData["Basari"] != null)
+    {
+        <div class="alert alert-success text-center fw-bold shadow-sm mb-4">
+            ✅ @TempData["Basari"]
+        </div>
+    }
+    @if (TempData["Hata"] != null)
+    {
+        <div class="alert alert-danger text-center fw-bold shadow-sm mb-4">
+            ❌ @TempData["Hata"]
+        </div>
+    }
+    
+    <div class="table-responsive shadow-sm">
+        <table class="table table-hover table-bordered align-middle">
+            <thead class="table-dark">
+                <tr class="text-center">
+                    <th>Uçuş Kodu</th>
+                    <th>Kalkış</th>
+                    <th>Varış</th>
+                    <th>Tarih & Saat</th>
+                    <th>Fiyat</th>
+                    <th>İşlem</th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (Model != null && Model.Any())
+                {
+                    foreach (var flight in Model)
+                    {
+                        <tr class="text-center">
+                            <td><span class="badge bg-secondary fs-6">@flight.FlightCode</span></td>
+                            <td class="fw-bold">@flight.Departure</td>
+                            <td class="fw-bold">@flight.Arrival</td>
+                            <td>@flight.DepartureTime.ToString("dd.MM.yyyy HH:mm")</td>
+                            <td class="text-success fw-bold fs-5">@flight.Price.ToString("C2")</td>
+                            <td>
+                                <a asp-controller="Home" asp-action="BiletAl" asp-route-ucusId="@flight.Id" class="btn btn-sm btn-warning fw-bold px-3">Bilet Al</a>
+                            </td>
+                        </tr>
+                    }
+                }
+                else
+                {
+                    <tr>
+                        <td colspan="6" class="text-center text-danger fw-bold py-4">
+                            Şu an listelenecek uçuş bulunamadı. <br />
+                            @if (ViewBag.HataMesaji != null)
+                            {
+                                <div class="mt-2">
+                                    <small class="text-muted d-block">Hata Detayı:</small>
+                                    <span class="badge bg-danger">@ViewBag.HataMesaji</span>
+                                </div>
+                            }
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

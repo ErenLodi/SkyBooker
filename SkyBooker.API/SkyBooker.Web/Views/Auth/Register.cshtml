@@ -1,0 +1,57 @@
+﻿@model SkyBooker.Web.Models.UserViewModel
+
+@{
+    ViewData["Title"] = "Kayıt Ol";
+}
+
+<div class="container mt-5 mb-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow-lg border-0 rounded-lg border-top border-primary border-3">
+                <div class="card-header bg-white text-center py-3">
+                    <h3 class="fw-bold text-primary mb-0">✈️ SkyBooker'a Katıl</h3>
+                    <p class="text-muted mb-0">Saniyeler içinde ücretsiz hesabınızı oluşturun.</p>
+                </div>
+                <div class="card-body p-4">
+
+                    @if (ViewBag.Hata != null)
+                    {
+                        <div class="alert alert-danger fw-bold text-center">❌ @ViewBag.Hata</div>
+                    }
+
+                    <form asp-action="Register" asp-controller="Auth" method="post">
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <label class="form-label fw-bold text-muted">Adınız</label>
+                                <input type="text" asp-for="FirstName" class="form-control form-control-lg" required placeholder="Örn: Eren" />
+                            </div>
+                            <div class="col-md-6">
+                                <label class="form-label fw-bold text-muted">Soyadınız</label>
+                                <input type="text" asp-for="LastName" class="form-control form-control-lg" required placeholder="Örn: Yılmaz" />
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label fw-bold text-muted">E-Posta Adresi</label>
+                            <input type="email" asp-for="Email" class="form-control form-control-lg" required placeholder="Örn: ornek@mail.com" />
+                        </div>
+
+                        <div class="mb-4">
+                            <label class="form-label fw-bold text-muted">Şifreniz</label>
+                            <input type="password" asp-for="PasswordHash" class="form-control form-control-lg" required placeholder="Gizli şifrenizi belirleyin" />
+                        </div>
+
+                        <div class="d-grid mb-3">
+                            <button type="submit" class="btn btn-primary btn-lg fw-bold shadow-sm">🚀 Ücretsiz Kayıt Ol</button>
+                        </div>
+                    </form>
+
+                    <div class="text-center mt-3">
+                        <p class="text-muted">Zaten bir hesabınız var mı? <a href="/Auth/Login" class="text-primary fw-bold text-decoration-none">Buradan Giriş Yapın</a></p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

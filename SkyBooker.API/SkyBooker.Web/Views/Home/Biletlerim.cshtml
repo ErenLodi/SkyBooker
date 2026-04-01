@@ -1,0 +1,77 @@
+﻿@model List<SkyBooker.Web.Models.ReservationViewModel>
+
+@{
+    ViewData["Title"] = "Biletlerim";
+}
+
+<div class="container mt-5">
+    <div class="text-center mb-4">
+        <h2 class="text-primary fw-bold">🎫 Satın Alınan Biletler</h2>
+        <p class="text-muted">Sistemdeki aktif rezervasyonlarınız aşağıda listelenmektedir.</p>
+    </div>
+
+    @if (TempData["Basari"] != null)
+    {
+        <div class="alert alert-success text-center fw-bold shadow-sm mb-4">✅ @TempData["Basari"]</div>
+    }
+    @if (TempData["Hata"] != null)
+    {
+        <div class="alert alert-danger text-center fw-bold shadow-sm mb-4">❌ @TempData["Hata"]</div>
+    }
+    @if (ViewBag.Hata != null)
+    {
+        <div class="alert alert-danger text-center fw-bold shadow-sm mb-4">❌ @ViewBag.Hata</div>
+    }
+
+    <div class="table-responsive shadow-sm">
+        <table class="table table-hover table-bordered align-middle">
+            <thead class="table-dark">
+                <tr class="text-center">
+                    <th>Bilet No</th>
+                    <th>Yolcu Adı</th>
+                    <th>Uçuş ID</th>
+                    <th>Koltuk</th>
+                    <th>Tarih</th>
+                    <th>Durum</th>
+                    <th>İşlem (İptal)</th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (Model != null && Model.Any())
+                {
+                    foreach (var bilet in Model)
+                    {
+                        <tr class="text-center">
+                            <td class="fw-bold text-muted">#@bilet.Id</td>
+                            <td class="fw-bold text-primary">@bilet.PassengerName</td>
+                            <td><span class="badge bg-secondary fs-6">@bilet.FlightId</span></td>
+                            <td class="fw-bold">@bilet.SeatNumber</td>
+                            <td>@bilet.ReservationDate.ToString("dd.MM.yyyy HH:mm")</td>
+                            <td>
+                                <span class="badge bg-success">@bilet.Status</span>
+                            </td>
+                            <td>
+                                <form asp-action="BiletIptal" asp-controller="Home" method="post" onsubmit="return confirm('Bu bileti iptal etmek istediğinize emin misiniz? İşlem geri alınamaz!');">
+                                    <input type="hidden" name="id" value="@bilet.Id" />
+                                    <button type="submit" class="btn btn-sm btn-outline-danger fw-bold px-3">🗑️ İptal Et</button>
+                                </form>
+                            </td>
+                        </tr>
+                    }
+                }
+                else
+                {
+                    <tr>
+                        <td colspan="7" class="text-center text-danger fw-bold py-4">
+                            Henüz alınmış bir bilet bulunmuyor. Ana sayfadan bilet alabilirsiniz!
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+    <div class="text-center mt-4">
+        <a href="/Home/Index" class="btn btn-outline-primary fw-bold px-4">✈️ Yeni Bilet Al</a>
+    </div>
+</div>

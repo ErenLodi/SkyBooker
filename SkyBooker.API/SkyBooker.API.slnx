@@ -1,3 +1,4 @@
 <Solution>
   <Project Path="SkyBooker.API/SkyBooker.API.csproj" />
+  <Project Path="SkyBooker.Web/SkyBooker.Web.csproj" Id="59df9c6b-d24d-4754-ab54-a264cf9e93fb" />
 </Solution>

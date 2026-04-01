@@ -1,0 +1,68 @@
+﻿@model List<SkyBooker.Web.Models.FlightViewModel>
+
+@{
+    ViewData["Title"] = "Yönetim Paneli";
+}
+
+<div class="container mt-5">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <div>
+            <h2 class="text-danger fw-bold">⚙️ Kontrol Kulesi (Yönetim Paneli)</h2>
+            <p class="text-muted">Sistemdeki tüm uçuşları buradan yönetebilirsiniz.</p>
+        </div>
+        <a href="/Admin/UcusEkle" class="btn btn-primary btn-lg fw-bold shadow-sm">➕ Yeni Uçuş Ekle</a>
+    </div>
+
+    @if (TempData["Basari"] != null)
+    {
+        <div class="alert alert-success text-center fw-bold shadow-sm mb-4">✅ @TempData["Basari"]</div>
+    }
+    @if (TempData["Hata"] != null)
+    {
+        <div class="alert alert-danger text-center fw-bold shadow-sm mb-4">❌ @TempData["Hata"]</div>
+    }
+
+    <div class="table-responsive shadow-sm border-danger border-top border-3">
+        <table class="table table-hover table-bordered align-middle">
+            <thead class="table-dark">
+                <tr class="text-center">
+                    <th>ID</th>
+                    <th>Uçuş Kodu</th>
+                    <th>Güzergah</th>
+                    <th>Tarih & Saat</th>
+                    <th>Fiyat</th>
+                    <th>İşlem (Kritik)</th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (Model != null && Model.Any())
+                {
+                    foreach (var flight in Model)
+                    {
+                        <tr class="text-center">
+                            <td class="text-muted fw-bold">@flight.Id</td>
+                            <td><span class="badge bg-danger fs-6">@flight.FlightCode</span></td>
+                            <td class="fw-bold">@flight.Departure ➡️ @flight.Arrival</td>
+                            <td>@flight.DepartureTime.ToString("dd.MM.yyyy HH:mm")</td>
+                            <td class="text-success fw-bold fs-5">@flight.Price.ToString("C2")</td>
+                            <td class="d-flex justify-content-center gap-2">
+                                <a href="/Admin/UcusDuzenle?id=@flight.Id" class="btn btn-sm btn-outline-warning fw-bold px-3">✏️ Düzenle</a>
+                                
+                                <form asp-action="UcusSil" asp-controller="Admin" method="post" onsubmit="return confirm('Bu uçuşu kalıcı olarak silmek istediğinize emin misiniz?');">
+                                    <input type="hidden" name="id" value="@flight.Id" />
+                                    <button type="submit" class="btn btn-sm btn-outline-danger fw-bold px-3">🗑️ Uçuşu Sil</button>
+                                </form>
+                            </td>
+                        </tr>
+                    }
+                }
+                else
+                {
+                    <tr>
+                        <td colspan="6" class="text-center text-muted fw-bold py-4">Sistemde kayıtlı uçuş bulunmuyor.</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

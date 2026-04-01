@@ -1,15 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using SkyBooker.API.Data;
 using SkyBooker.API.Models;
+using System.Security.Claims; // <-- KİMLİK OKUMAK İÇİN EKLENDİ
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace SkyBooker.API.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class ReservationsController : ControllerBase
@@ -21,14 +24,29 @@ namespace SkyBooker.API.Controllers
             _context = context;
         }
 
-        // GET: api/Reservations
+        // =========================================================
+        // 1. GEÇMİŞ REZERVASYONLARI GÖRÜNTÜLEME (Güvenlikli)
+        // =========================================================
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Reservation>>> GetReservations()
         {
-            return await _context.Reservations.ToListAsync();
+            // Giriş yapan kişinin e-postasını ve ID'sini token'dan buluyoruz
+            var userEmail = User.FindFirst(ClaimTypes.Email)?.Value;
+            var userIdString = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+
+            int userId = 0;
+            int.TryParse(userIdString, out userId);
+
+            // Eğer giriş yapan kişi ADMIN ise sistemdeki TÜM biletleri görsün
+            if (userEmail == "admin@skybooker.com")
+            {
+                return await _context.Reservations.ToListAsync();
+            }
+
+            // Normal bir müşteri ise SADECE KENDİ ID'SİNE ait biletleri görsün!
+            return await _context.Reservations.Where(r => r.UserId == userId).ToListAsync();
         }
 
-        // GET: api/Reservations/5
         [HttpGet("{id}")]
         public async Task<ActionResult<Reservation>> GetReservation(int id)
         {
@@ -42,8 +60,6 @@ namespace SkyBooker.API.Controllers
             return reservation;
         }
 
-        // PUT: api/Reservations/5
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
         public async Task<IActionResult> PutReservation(int id, Reservation reservation)
         {
@@ -73,18 +89,25 @@ namespace SkyBooker.API.Controllers
             return NoContent();
         }
 
-        // POST: api/Reservations
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
+        // =========================================================
+        // 2. YENİ BİLET ALMA (Bileti Kullanıcıya Mühürleme)
+        // =========================================================
         [HttpPost]
         public async Task<ActionResult<Reservation>> PostReservation(Reservation reservation)
         {
+            // Bilet alınırken, o biletin üstüne "Bu bilet şu ID'li kişiye ait" mührünü basıyoruz!
+            var userIdString = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+            if (int.TryParse(userIdString, out int userId))
+            {
+                reservation.UserId = userId; // Bileti sahiplendir
+            }
+
             _context.Reservations.Add(reservation);
             await _context.SaveChangesAsync();
 
             return CreatedAtAction("GetReservation", new { id = reservation.Id }, reservation);
         }
 
-        // DELETE: api/Reservations/5
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteReservation(int id)
         {
