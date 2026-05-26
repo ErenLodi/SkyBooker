@@ -325,11 +325,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Eren\\Desktop\\YazılımMuhProje\\YazMuh\\SkyBooker.API\\SkyBooker.Web\\SkyBooker.Web.csproj",
+      "projectUniqueName": "C:\\Users\\Eren\\Desktop\\YazilimMuhProje\\YazMuh\\SkyBooker.API\\SkyBooker.Web\\SkyBooker.Web.csproj",
       "projectName": "SkyBooker.Web",
-      "projectPath": "C:\\Users\\Eren\\Desktop\\YazılımMuhProje\\YazMuh\\SkyBooker.API\\SkyBooker.Web\\SkyBooker.Web.csproj",
+      "projectPath": "C:\\Users\\Eren\\Desktop\\YazilimMuhProje\\YazMuh\\SkyBooker.API\\SkyBooker.Web\\SkyBooker.Web.csproj",
       "packagesPath": "C:\\Users\\Eren\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Eren\\Desktop\\YazılımMuhProje\\YazMuh\\SkyBooker.API\\SkyBooker.Web\\obj\\",
+      "outputPath": "C:\\Users\\Eren\\Desktop\\YazilimMuhProje\\YazMuh\\SkyBooker.API\\SkyBooker.Web\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

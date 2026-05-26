@@ -1,54 +1,129 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Eren\\Desktop\\Yaz\u0131l\u0131mMuhProje\\YazMuh\\SkyBooker.API\\",
+  "WorkspaceRootPath": "C:\\Users\\Eren\\Desktop\\YazilimMuhProje\\YazMuh\\SkyBooker.API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Eren\\Desktop\\Yaz\u0131l\u0131mMuhProje\\YazMuh\\SkyBooker.API\\SkyBooker.API\\Controllers\\ReservationsController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SkyBooker.API\\Controllers\\ReservationsController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4E5871A4-7537-B85D-45C4-278B9273B7CC}|SkyBooker.API\\SkyBooker.API.csproj|c:\\users\\eren\\desktop\\yazilimmuhproje\\yazmuh\\skybooker.api\\skybooker.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4E5871A4-7537-B85D-45C4-278B9273B7CC}|SkyBooker.API\\SkyBooker.API.csproj|solutionrelative:skybooker.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7DF352D9-F7FE-49DA-BAF1-B25E0FEA6133}|SkyBooker.API\\SkyBooker.API.csproj|c:\\users\\eren\\desktop\\yaz\u0131l\u0131mmuhproje\\yazmuh\\skybooker.api\\skybooker.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7DF352D9-F7FE-49DA-BAF1-B25E0FEA6133}|SkyBooker.API\\SkyBooker.API.csproj|solutionrelative:skybooker.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4E5871A4-7537-B85D-45C4-278B9273B7CC}|SkyBooker.API\\SkyBooker.API.csproj|c:\\users\\eren\\desktop\\yazilimmuhproje\\yazmuh\\skybooker.api\\skybooker.api\\skybooker.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4E5871A4-7537-B85D-45C4-278B9273B7CC}|SkyBooker.API\\SkyBooker.API.csproj|solutionrelative:skybooker.api\\skybooker.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7DF352D9-F7FE-49DA-BAF1-B25E0FEA6133}|SkyBooker.API\\SkyBooker.API.csproj|c:\\users\\eren\\desktop\\yaz\u0131l\u0131mmuhproje\\yazmuh\\skybooker.api\\skybooker.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7DF352D9-F7FE-49DA-BAF1-B25E0FEA6133}|SkyBooker.API\\SkyBooker.API.csproj|solutionrelative:skybooker.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{59DF9C6B-D24D-4754-AB54-A264CF9E93FB}|SkyBooker.Web\\SkyBooker.Web.csproj|c:\\users\\eren\\desktop\\yazilimmuhproje\\yazmuh\\skybooker.api\\skybooker.web\\views\\home\\biletal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{59DF9C6B-D24D-4754-AB54-A264CF9E93FB}|SkyBooker.Web\\SkyBooker.Web.csproj|solutionrelative:skybooker.web\\views\\home\\biletal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7DF352D9-F7FE-49DA-BAF1-B25E0FEA6133}|SkyBooker.API\\SkyBooker.API.csproj|c:\\users\\eren\\desktop\\yaz\u0131l\u0131mmuhproje\\yazmuh\\skybooker.api\\skybooker.api\\controllers\\flightscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7DF352D9-F7FE-49DA-BAF1-B25E0FEA6133}|SkyBooker.API\\SkyBooker.API.csproj|solutionrelative:skybooker.api\\controllers\\flightscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{59DF9C6B-D24D-4754-AB54-A264CF9E93FB}|SkyBooker.Web\\SkyBooker.Web.csproj|c:\\users\\eren\\desktop\\yazilimmuhproje\\yazmuh\\skybooker.api\\skybooker.web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59DF9C6B-D24D-4754-AB54-A264CF9E93FB}|SkyBooker.Web\\SkyBooker.Web.csproj|solutionrelative:skybooker.web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Eren\\Desktop\\Yaz\u0131l\u0131mMuhProje\\YazMuh\\SkyBooker.API\\SkyBooker.API\\Migrations\\20260314110430_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SkyBooker.API\\Migrations\\20260314110430_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{59DF9C6B-D24D-4754-AB54-A264CF9E93FB}|SkyBooker.Web\\SkyBooker.Web.csproj|c:\\users\\eren\\desktop\\yazilimmuhproje\\yazmuh\\skybooker.api\\skybooker.web\\views\\home\\profilim.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{59DF9C6B-D24D-4754-AB54-A264CF9E93FB}|SkyBooker.Web\\SkyBooker.Web.csproj|solutionrelative:skybooker.web\\views\\home\\profilim.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7DF352D9-F7FE-49DA-BAF1-B25E0FEA6133}|SkyBooker.API\\SkyBooker.API.csproj|c:\\users\\eren\\desktop\\yaz\u0131l\u0131mmuhproje\\yazmuh\\skybooker.api\\skybooker.api\\models\\flight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7DF352D9-F7FE-49DA-BAF1-B25E0FEA6133}|SkyBooker.API\\SkyBooker.API.csproj|solutionrelative:skybooker.api\\models\\flight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{59DF9C6B-D24D-4754-AB54-A264CF9E93FB}|SkyBooker.Web\\SkyBooker.Web.csproj|c:\\users\\eren\\desktop\\yazilimmuhproje\\yazmuh\\skybooker.api\\skybooker.web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{59DF9C6B-D24D-4754-AB54-A264CF9E93FB}|SkyBooker.Web\\SkyBooker.Web.csproj|solutionrelative:skybooker.web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Eren\\Desktop\\Yaz\u0131l\u0131mMuhProje\\YazMuh\\SkyBooker.API\\SkyBooker.API\\Migrations\\20260314110023_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SkyBooker.API\\Migrations\\20260314110023_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4E5871A4-7537-B85D-45C4-278B9273B7CC}|SkyBooker.API\\SkyBooker.API.csproj|c:\\users\\eren\\desktop\\yazilimmuhproje\\yazmuh\\skybooker.api\\skybooker.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E5871A4-7537-B85D-45C4-278B9273B7CC}|SkyBooker.API\\SkyBooker.API.csproj|solutionrelative:skybooker.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7DF352D9-F7FE-49DA-BAF1-B25E0FEA6133}|SkyBooker.API\\SkyBooker.API.csproj|c:\\users\\eren\\desktop\\yaz\u0131l\u0131mmuhproje\\yazmuh\\skybooker.api\\skybooker.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{7DF352D9-F7FE-49DA-BAF1-B25E0FEA6133}|SkyBooker.API\\SkyBooker.API.csproj|solutionrelative:skybooker.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{59DF9C6B-D24D-4754-AB54-A264CF9E93FB}|SkyBooker.Web\\SkyBooker.Web.csproj|c:\\users\\eren\\desktop\\yazilimmuhproje\\yazmuh\\skybooker.api\\skybooker.web\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{59DF9C6B-D24D-4754-AB54-A264CF9E93FB}|SkyBooker.Web\\SkyBooker.Web.csproj|solutionrelative:skybooker.web\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7DF352D9-F7FE-49DA-BAF1-B25E0FEA6133}|SkyBooker.API\\SkyBooker.API.csproj|c:\\users\\eren\\desktop\\yaz\u0131l\u0131mmuhproje\\yazmuh\\skybooker.api\\skybooker.api\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7DF352D9-F7FE-49DA-BAF1-B25E0FEA6133}|SkyBooker.API\\SkyBooker.API.csproj|solutionrelative:skybooker.api\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{59DF9C6B-D24D-4754-AB54-A264CF9E93FB}|SkyBooker.Web\\SkyBooker.Web.csproj|c:\\users\\eren\\desktop\\yazilimmuhproje\\yazmuh\\skybooker.api\\skybooker.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{59DF9C6B-D24D-4754-AB54-A264CF9E93FB}|SkyBooker.Web\\SkyBooker.Web.csproj|solutionrelative:skybooker.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7DF352D9-F7FE-49DA-BAF1-B25E0FEA6133}|SkyBooker.API\\SkyBooker.API.csproj|c:\\users\\eren\\desktop\\yaz\u0131l\u0131mmuhproje\\yazmuh\\skybooker.api\\skybooker.api\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7DF352D9-F7FE-49DA-BAF1-B25E0FEA6133}|SkyBooker.API\\SkyBooker.API.csproj|solutionrelative:skybooker.api\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4E5871A4-7537-B85D-45C4-278B9273B7CC}|SkyBooker.API\\SkyBooker.API.csproj|c:\\users\\eren\\desktop\\yazilimmuhproje\\yazmuh\\skybooker.api\\skybooker.api\\controllers\\flightscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E5871A4-7537-B85D-45C4-278B9273B7CC}|SkyBooker.API\\SkyBooker.API.csproj|solutionrelative:skybooker.api\\controllers\\flightscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7DF352D9-F7FE-49DA-BAF1-B25E0FEA6133}|SkyBooker.API\\SkyBooker.API.csproj|c:\\users\\eren\\desktop\\yaz\u0131l\u0131mmuhproje\\yazmuh\\skybooker.api\\skybooker.api\\models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7DF352D9-F7FE-49DA-BAF1-B25E0FEA6133}|SkyBooker.API\\SkyBooker.API.csproj|solutionrelative:skybooker.api\\models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4E5871A4-7537-B85D-45C4-278B9273B7CC}|SkyBooker.API\\SkyBooker.API.csproj|c:\\users\\eren\\desktop\\yazilimmuhproje\\yazmuh\\skybooker.api\\skybooker.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E5871A4-7537-B85D-45C4-278B9273B7CC}|SkyBooker.API\\SkyBooker.API.csproj|solutionrelative:skybooker.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7DF352D9-F7FE-49DA-BAF1-B25E0FEA6133}|SkyBooker.API\\SkyBooker.API.csproj|c:\\users\\eren\\desktop\\yaz\u0131l\u0131mmuhproje\\yazmuh\\skybooker.api\\skybooker.api\\skybooker.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{7DF352D9-F7FE-49DA-BAF1-B25E0FEA6133}|SkyBooker.API\\SkyBooker.API.csproj|solutionrelative:skybooker.api\\skybooker.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{4E5871A4-7537-B85D-45C4-278B9273B7CC}|SkyBooker.API\\SkyBooker.API.csproj|c:\\users\\eren\\desktop\\yazilimmuhproje\\yazmuh\\skybooker.api\\skybooker.api\\controllers\\reservationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E5871A4-7537-B85D-45C4-278B9273B7CC}|SkyBooker.API\\SkyBooker.API.csproj|solutionrelative:skybooker.api\\controllers\\reservationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E5871A4-7537-B85D-45C4-278B9273B7CC}|SkyBooker.API\\SkyBooker.API.csproj|c:\\users\\eren\\desktop\\yazilimmuhproje\\yazmuh\\skybooker.api\\skybooker.api\\models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E5871A4-7537-B85D-45C4-278B9273B7CC}|SkyBooker.API\\SkyBooker.API.csproj|solutionrelative:skybooker.api\\models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59DF9C6B-D24D-4754-AB54-A264CF9E93FB}|SkyBooker.Web\\SkyBooker.Web.csproj|c:\\users\\eren\\desktop\\yazilimmuhproje\\yazmuh\\skybooker.api\\skybooker.web\\views\\auth\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{59DF9C6B-D24D-4754-AB54-A264CF9E93FB}|SkyBooker.Web\\SkyBooker.Web.csproj|solutionrelative:skybooker.web\\views\\auth\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59DF9C6B-D24D-4754-AB54-A264CF9E93FB}|SkyBooker.Web\\SkyBooker.Web.csproj|c:\\users\\eren\\desktop\\yazilimmuhproje\\yazmuh\\skybooker.api\\skybooker.web\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59DF9C6B-D24D-4754-AB54-A264CF9E93FB}|SkyBooker.Web\\SkyBooker.Web.csproj|solutionrelative:skybooker.web\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59DF9C6B-D24D-4754-AB54-A264CF9E93FB}|SkyBooker.Web\\SkyBooker.Web.csproj|c:\\users\\eren\\desktop\\yazilimmuhproje\\yazmuh\\skybooker.api\\skybooker.web\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59DF9C6B-D24D-4754-AB54-A264CF9E93FB}|SkyBooker.Web\\SkyBooker.Web.csproj|solutionrelative:skybooker.web\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59DF9C6B-D24D-4754-AB54-A264CF9E93FB}|SkyBooker.Web\\SkyBooker.Web.csproj|c:\\users\\eren\\desktop\\yazilimmuhproje\\yazmuh\\skybooker.api\\skybooker.web\\views\\home\\biletlerim.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{59DF9C6B-D24D-4754-AB54-A264CF9E93FB}|SkyBooker.Web\\SkyBooker.Web.csproj|solutionrelative:skybooker.web\\views\\home\\biletlerim.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59DF9C6B-D24D-4754-AB54-A264CF9E93FB}|SkyBooker.Web\\SkyBooker.Web.csproj|c:\\users\\eren\\desktop\\yazilimmuhproje\\yazmuh\\skybooker.api\\skybooker.web\\models\\userviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59DF9C6B-D24D-4754-AB54-A264CF9E93FB}|SkyBooker.Web\\SkyBooker.Web.csproj|solutionrelative:skybooker.web\\models\\userviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59DF9C6B-D24D-4754-AB54-A264CF9E93FB}|SkyBooker.Web\\SkyBooker.Web.csproj|c:\\users\\eren\\desktop\\yazilimmuhproje\\yazmuh\\skybooker.api\\skybooker.web\\views\\admin\\ucusduzenle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{59DF9C6B-D24D-4754-AB54-A264CF9E93FB}|SkyBooker.Web\\SkyBooker.Web.csproj|solutionrelative:skybooker.web\\views\\admin\\ucusduzenle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59DF9C6B-D24D-4754-AB54-A264CF9E93FB}|SkyBooker.Web\\SkyBooker.Web.csproj|c:\\users\\eren\\desktop\\yazilimmuhproje\\yazmuh\\skybooker.api\\skybooker.web\\views\\admin\\ucusekle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{59DF9C6B-D24D-4754-AB54-A264CF9E93FB}|SkyBooker.Web\\SkyBooker.Web.csproj|solutionrelative:skybooker.web\\views\\admin\\ucusekle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59DF9C6B-D24D-4754-AB54-A264CF9E93FB}|SkyBooker.Web\\SkyBooker.Web.csproj|c:\\users\\eren\\desktop\\yazilimmuhproje\\yazmuh\\skybooker.api\\skybooker.web\\models\\reservationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59DF9C6B-D24D-4754-AB54-A264CF9E93FB}|SkyBooker.Web\\SkyBooker.Web.csproj|solutionrelative:skybooker.web\\models\\reservationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59DF9C6B-D24D-4754-AB54-A264CF9E93FB}|SkyBooker.Web\\SkyBooker.Web.csproj|c:\\users\\eren\\desktop\\yazilimmuhproje\\yazmuh\\skybooker.api\\skybooker.web\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59DF9C6B-D24D-4754-AB54-A264CF9E93FB}|SkyBooker.Web\\SkyBooker.Web.csproj|solutionrelative:skybooker.web\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59DF9C6B-D24D-4754-AB54-A264CF9E93FB}|SkyBooker.Web\\SkyBooker.Web.csproj|c:\\users\\eren\\desktop\\yazilimmuhproje\\yazmuh\\skybooker.api\\skybooker.web\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{59DF9C6B-D24D-4754-AB54-A264CF9E93FB}|SkyBooker.Web\\SkyBooker.Web.csproj|solutionrelative:skybooker.web\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59DF9C6B-D24D-4754-AB54-A264CF9E93FB}|SkyBooker.Web\\SkyBooker.Web.csproj|c:\\users\\eren\\desktop\\yazilimmuhproje\\yazmuh\\skybooker.api\\skybooker.web\\models\\flightviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59DF9C6B-D24D-4754-AB54-A264CF9E93FB}|SkyBooker.Web\\SkyBooker.Web.csproj|solutionrelative:skybooker.web\\models\\flightviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E5871A4-7537-B85D-45C4-278B9273B7CC}|SkyBooker.API\\SkyBooker.API.csproj|c:\\users\\eren\\desktop\\yazilimmuhproje\\yazmuh\\skybooker.api\\skybooker.api\\models\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E5871A4-7537-B85D-45C4-278B9273B7CC}|SkyBooker.API\\SkyBooker.API.csproj|solutionrelative:skybooker.api\\models\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E5871A4-7537-B85D-45C4-278B9273B7CC}|SkyBooker.API\\SkyBooker.API.csproj|c:\\users\\eren\\desktop\\yazilimmuhproje\\yazmuh\\skybooker.api\\skybooker.api\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E5871A4-7537-B85D-45C4-278B9273B7CC}|SkyBooker.API\\SkyBooker.API.csproj|solutionrelative:skybooker.api\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Eren\\Desktop\\Yaz\u0131l\u0131mMuhProje\\YazMuh\\SkyBooker.API\\SkyBooker.API\\Migrations\\20260314110023_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E5871A4-7537-B85D-45C4-278B9273B7CC}|SkyBooker.API\\SkyBooker.API.csproj|c:\\users\\eren\\desktop\\yazilimmuhproje\\yazmuh\\skybooker.api\\skybooker.api\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E5871A4-7537-B85D-45C4-278B9273B7CC}|SkyBooker.API\\SkyBooker.API.csproj|solutionrelative:skybooker.api\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E5871A4-7537-B85D-45C4-278B9273B7CC}|SkyBooker.API\\SkyBooker.API.csproj|c:\\users\\eren\\desktop\\yazilimmuhproje\\yazmuh\\skybooker.api\\skybooker.api\\migrations\\20260314110430_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E5871A4-7537-B85D-45C4-278B9273B7CC}|SkyBooker.API\\SkyBooker.API.csproj|solutionrelative:skybooker.api\\migrations\\20260314110430_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E5871A4-7537-B85D-45C4-278B9273B7CC}|SkyBooker.API\\SkyBooker.API.csproj|c:\\users\\eren\\desktop\\yazilimmuhproje\\yazmuh\\skybooker.api\\skybooker.api\\models\\flight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E5871A4-7537-B85D-45C4-278B9273B7CC}|SkyBooker.API\\SkyBooker.API.csproj|solutionrelative:skybooker.api\\models\\flight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E5871A4-7537-B85D-45C4-278B9273B7CC}|SkyBooker.API\\SkyBooker.API.csproj|c:\\users\\eren\\desktop\\yazilimmuhproje\\yazmuh\\skybooker.api\\skybooker.api\\migrations\\20260328095947_biletsahibieklendi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E5871A4-7537-B85D-45C4-278B9273B7CC}|SkyBooker.API\\SkyBooker.API.csproj|solutionrelative:skybooker.api\\migrations\\20260328095947_biletsahibieklendi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,163 +133,385 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ReservationsController.cs",
-              "DocumentMoniker": "C:\\Users\\Eren\\Desktop\\Yaz\u0131l\u0131mMuhProje\\YazMuh\\SkyBooker.API\\SkyBooker.API\\Controllers\\ReservationsController.cs",
-              "RelativeDocumentMoniker": "SkyBooker.API\\Controllers\\ReservationsController.cs",
-              "ToolTip": "C:\\Users\\Eren\\Desktop\\Yaz\u0131l\u0131mMuhProje\\YazMuh\\SkyBooker.API\\SkyBooker.API\\Controllers\\ReservationsController.cs",
-              "RelativeToolTip": "SkyBooker.API\\Controllers\\ReservationsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-14T12:33:05.708Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UsersController.cs",
-              "DocumentMoniker": "C:\\Users\\Eren\\Desktop\\Yaz\u0131l\u0131mMuhProje\\YazMuh\\SkyBooker.API\\SkyBooker.API\\Controllers\\UsersController.cs",
-              "RelativeDocumentMoniker": "SkyBooker.API\\Controllers\\UsersController.cs",
-              "ToolTip": "C:\\Users\\Eren\\Desktop\\Yaz\u0131l\u0131mMuhProje\\YazMuh\\SkyBooker.API\\SkyBooker.API\\Controllers\\UsersController.cs",
-              "RelativeToolTip": "SkyBooker.API\\Controllers\\UsersController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-14T12:29:03.458Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FlightsController.cs",
-              "DocumentMoniker": "C:\\Users\\Eren\\Desktop\\Yaz\u0131l\u0131mMuhProje\\YazMuh\\SkyBooker.API\\SkyBooker.API\\Controllers\\FlightsController.cs",
-              "RelativeDocumentMoniker": "SkyBooker.API\\Controllers\\FlightsController.cs",
-              "ToolTip": "C:\\Users\\Eren\\Desktop\\Yaz\u0131l\u0131mMuhProje\\YazMuh\\SkyBooker.API\\SkyBooker.API\\Controllers\\FlightsController.cs",
-              "RelativeToolTip": "SkyBooker.API\\Controllers\\FlightsController.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-14T11:21:42.204Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "20260314110023_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Users\\Eren\\Desktop\\Yaz\u0131l\u0131mMuhProje\\YazMuh\\SkyBooker.API\\SkyBooker.API\\Migrations\\20260314110023_InitialCreate.cs",
-              "RelativeDocumentMoniker": "SkyBooker.API\\Migrations\\20260314110023_InitialCreate.cs",
-              "ToolTip": "C:\\Users\\Eren\\Desktop\\Yaz\u0131l\u0131mMuhProje\\YazMuh\\SkyBooker.API\\SkyBooker.API\\Migrations\\20260314110023_InitialCreate.cs",
-              "RelativeToolTip": "SkyBooker.API\\Migrations\\20260314110023_InitialCreate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-14T11:00:23.657Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Eren\\Desktop\\Yaz\u0131l\u0131mMuhProje\\YazMuh\\SkyBooker.API\\SkyBooker.API\\Program.cs",
-              "RelativeDocumentMoniker": "SkyBooker.API\\Program.cs",
-              "ToolTip": "C:\\Users\\Eren\\Desktop\\Yaz\u0131l\u0131mMuhProje\\YazMuh\\SkyBooker.API\\SkyBooker.API\\Program.cs",
-              "RelativeToolTip": "SkyBooker.API\\Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-14T10:52:32.787Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Eren\\Desktop\\Yaz\u0131l\u0131mMuhProje\\YazMuh\\SkyBooker.API\\SkyBooker.API\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Eren\\Desktop\\YazilimMuhProje\\YazMuh\\SkyBooker.API\\SkyBooker.API\\appsettings.json",
               "RelativeDocumentMoniker": "SkyBooker.API\\appsettings.json",
-              "ToolTip": "C:\\Users\\Eren\\Desktop\\Yaz\u0131l\u0131mMuhProje\\YazMuh\\SkyBooker.API\\SkyBooker.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\Eren\\Desktop\\YazilimMuhProje\\YazMuh\\SkyBooker.API\\SkyBooker.API\\appsettings.json",
               "RelativeToolTip": "SkyBooker.API\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAACeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2026-03-14T10:47:04.521Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Eren\\Desktop\\Yaz\u0131l\u0131mMuhProje\\YazMuh\\SkyBooker.API\\SkyBooker.API\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "SkyBooker.API\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\Eren\\Desktop\\Yaz\u0131l\u0131mMuhProje\\YazMuh\\SkyBooker.API\\SkyBooker.API\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "SkyBooker.API\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Eren\\Desktop\\YazilimMuhProje\\YazMuh\\SkyBooker.API\\SkyBooker.Web\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "SkyBooker.Web\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Eren\\Desktop\\YazilimMuhProje\\YazMuh\\SkyBooker.API\\SkyBooker.Web\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "SkyBooker.Web\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAwwFsAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-26T12:09:53.042Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\Eren\\Desktop\\YazilimMuhProje\\YazMuh\\SkyBooker.API\\SkyBooker.Web\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "SkyBooker.Web\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\Eren\\Desktop\\YazilimMuhProje\\YazMuh\\SkyBooker.API\\SkyBooker.Web\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "SkyBooker.Web\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAANUAAAAAAAAAAAAUwO0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-14T10:38:36.789Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-27T19:34:05.395Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BiletAl.cshtml",
+              "DocumentMoniker": "C:\\Users\\Eren\\Desktop\\YazilimMuhProje\\YazMuh\\SkyBooker.API\\SkyBooker.Web\\Views\\Home\\BiletAl.cshtml",
+              "RelativeDocumentMoniker": "SkyBooker.Web\\Views\\Home\\BiletAl.cshtml",
+              "ToolTip": "C:\\Users\\Eren\\Desktop\\YazilimMuhProje\\YazMuh\\SkyBooker.API\\SkyBooker.Web\\Views\\Home\\BiletAl.cshtml",
+              "RelativeToolTip": "SkyBooker.Web\\Views\\Home\\BiletAl.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAwwCcAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-27T16:45:25.42Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Eren\\Desktop\\YazilimMuhProje\\YazMuh\\SkyBooker.API\\SkyBooker.Web\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "SkyBooker.Web\\Views\\Admin\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Eren\\Desktop\\YazilimMuhProje\\YazMuh\\SkyBooker.API\\SkyBooker.Web\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "SkyBooker.Web\\Views\\Admin\\Index.cshtml",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAD8AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-27T19:36:24.431Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "20260314110430_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Users\\Eren\\Desktop\\Yaz\u0131l\u0131mMuhProje\\YazMuh\\SkyBooker.API\\SkyBooker.API\\Migrations\\20260314110430_InitialCreate.cs",
-              "RelativeDocumentMoniker": "SkyBooker.API\\Migrations\\20260314110430_InitialCreate.cs",
-              "ToolTip": "C:\\Users\\Eren\\Desktop\\Yaz\u0131l\u0131mMuhProje\\YazMuh\\SkyBooker.API\\SkyBooker.API\\Migrations\\20260314110430_InitialCreate.cs",
-              "RelativeToolTip": "SkyBooker.API\\Migrations\\20260314110430_InitialCreate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-14T11:04:30.572Z",
+              "Title": "Profilim.cshtml",
+              "DocumentMoniker": "C:\\Users\\Eren\\Desktop\\YazilimMuhProje\\YazMuh\\SkyBooker.API\\SkyBooker.Web\\Views\\Home\\Profilim.cshtml",
+              "RelativeDocumentMoniker": "SkyBooker.Web\\Views\\Home\\Profilim.cshtml",
+              "ToolTip": "C:\\Users\\Eren\\Desktop\\YazilimMuhProje\\YazMuh\\SkyBooker.API\\SkyBooker.Web\\Views\\Home\\Profilim.cshtml",
+              "RelativeToolTip": "SkyBooker.Web\\Views\\Home\\Profilim.cshtml",
+              "ViewState": "AgIAACsAAAAAAAAAAAAiwEQAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-27T20:59:59.93Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SkyBooker.API.csproj",
+              "DocumentMoniker": "C:\\Users\\Eren\\Desktop\\YazilimMuhProje\\YazMuh\\SkyBooker.API\\SkyBooker.API\\SkyBooker.API.csproj",
+              "RelativeDocumentMoniker": "SkyBooker.API\\SkyBooker.API.csproj",
+              "ToolTip": "C:\\Users\\Eren\\Desktop\\YazilimMuhProje\\YazMuh\\SkyBooker.API\\SkyBooker.API\\SkyBooker.API.csproj",
+              "RelativeToolTip": "SkyBooker.API\\SkyBooker.API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-14T08:30:04.081Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Reservation.cs",
-              "DocumentMoniker": "C:\\Users\\Eren\\Desktop\\Yaz\u0131l\u0131mMuhProje\\YazMuh\\SkyBooker.API\\SkyBooker.API\\Models\\Reservation.cs",
-              "RelativeDocumentMoniker": "SkyBooker.API\\Models\\Reservation.cs",
-              "ToolTip": "C:\\Users\\Eren\\Desktop\\Yaz\u0131l\u0131mMuhProje\\YazMuh\\SkyBooker.API\\SkyBooker.API\\Models\\Reservation.cs",
-              "RelativeToolTip": "SkyBooker.API\\Models\\Reservation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Eren\\Desktop\\YazilimMuhProje\\YazMuh\\SkyBooker.API\\SkyBooker.API\\Program.cs",
+              "RelativeDocumentMoniker": "SkyBooker.API\\Program.cs",
+              "ToolTip": "C:\\Users\\Eren\\Desktop\\YazilimMuhProje\\YazMuh\\SkyBooker.API\\SkyBooker.API\\Program.cs",
+              "RelativeToolTip": "SkyBooker.API\\Program.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAwwEQAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-14T10:35:58.929Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-14T10:52:32.787Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Flight.cs",
-              "DocumentMoniker": "C:\\Users\\Eren\\Desktop\\Yaz\u0131l\u0131mMuhProje\\YazMuh\\SkyBooker.API\\SkyBooker.API\\Models\\Flight.cs",
-              "RelativeDocumentMoniker": "SkyBooker.API\\Models\\Flight.cs",
-              "ToolTip": "C:\\Users\\Eren\\Desktop\\Yaz\u0131l\u0131mMuhProje\\YazMuh\\SkyBooker.API\\SkyBooker.API\\Models\\Flight.cs",
-              "RelativeToolTip": "SkyBooker.API\\Models\\Flight.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Eren\\Desktop\\YazilimMuhProje\\YazMuh\\SkyBooker.API\\SkyBooker.Web\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "SkyBooker.Web\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Eren\\Desktop\\YazilimMuhProje\\YazMuh\\SkyBooker.API\\SkyBooker.Web\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "SkyBooker.Web\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAL8AAAAAAAAAAAAwwNoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-14T10:32:41.919Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-26T12:08:51.001Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\Eren\\Desktop\\Yaz\u0131l\u0131mMuhProje\\YazMuh\\SkyBooker.API\\SkyBooker.API\\Models\\User.cs",
-              "RelativeDocumentMoniker": "SkyBooker.API\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\Eren\\Desktop\\Yaz\u0131l\u0131mMuhProje\\YazMuh\\SkyBooker.API\\SkyBooker.API\\Models\\User.cs",
-              "RelativeToolTip": "SkyBooker.API\\Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Title": "FlightsController.cs",
+              "DocumentMoniker": "C:\\Users\\Eren\\Desktop\\YazilimMuhProje\\YazMuh\\SkyBooker.API\\SkyBooker.API\\Controllers\\FlightsController.cs",
+              "RelativeDocumentMoniker": "SkyBooker.API\\Controllers\\FlightsController.cs",
+              "ToolTip": "C:\\Users\\Eren\\Desktop\\YazilimMuhProje\\YazMuh\\SkyBooker.API\\SkyBooker.API\\Controllers\\FlightsController.cs",
+              "RelativeToolTip": "SkyBooker.API\\Controllers\\FlightsController.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAkwF4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-14T10:31:32.431Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-14T11:21:42.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Eren\\Desktop\\YazilimMuhProje\\YazMuh\\SkyBooker.API\\SkyBooker.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "SkyBooker.Web\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Eren\\Desktop\\YazilimMuhProje\\YazMuh\\SkyBooker.API\\SkyBooker.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "SkyBooker.Web\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAwwEUAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-28T09:06:03.655Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "20260328095947_BiletSahibiEklendi.cs",
+              "DocumentMoniker": "C:\\Users\\Eren\\Desktop\\YazilimMuhProje\\YazMuh\\SkyBooker.API\\SkyBooker.API\\Migrations\\20260328095947_BiletSahibiEklendi.cs",
+              "RelativeDocumentMoniker": "SkyBooker.API\\Migrations\\20260328095947_BiletSahibiEklendi.cs",
+              "ToolTip": "C:\\Users\\Eren\\Desktop\\YazilimMuhProje\\YazMuh\\SkyBooker.API\\SkyBooker.API\\Migrations\\20260328095947_BiletSahibiEklendi.cs",
+              "RelativeToolTip": "SkyBooker.API\\Migrations\\20260328095947_BiletSahibiEklendi.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-28T09:59:47.241Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\Eren\\Desktop\\YazilimMuhProje\\YazMuh\\SkyBooker.API\\SkyBooker.API\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "SkyBooker.API\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\Eren\\Desktop\\YazilimMuhProje\\YazMuh\\SkyBooker.API\\SkyBooker.API\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "SkyBooker.API\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAkwHUAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T12:29:03.458Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Biletlerim.cshtml",
+              "DocumentMoniker": "C:\\Users\\Eren\\Desktop\\YazilimMuhProje\\YazMuh\\SkyBooker.API\\SkyBooker.Web\\Views\\Home\\Biletlerim.cshtml",
+              "RelativeDocumentMoniker": "SkyBooker.Web\\Views\\Home\\Biletlerim.cshtml",
+              "ToolTip": "C:\\Users\\Eren\\Desktop\\YazilimMuhProje\\YazMuh\\SkyBooker.API\\SkyBooker.Web\\Views\\Home\\Biletlerim.cshtml",
+              "RelativeToolTip": "SkyBooker.Web\\Views\\Home\\Biletlerim.cshtml",
+              "ViewState": "AgIAADQAAAAAAAAAAAAUwEwAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-27T19:21:50.241Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "SkyBooker.API",
-              "DocumentMoniker": "C:\\Users\\Eren\\Desktop\\Yaz\u0131l\u0131mMuhProje\\YazMuh\\SkyBooker.API\\SkyBooker.API\\SkyBooker.API.csproj",
-              "RelativeDocumentMoniker": "SkyBooker.API\\SkyBooker.API.csproj",
-              "ToolTip": "C:\\Users\\Eren\\Desktop\\Yaz\u0131l\u0131mMuhProje\\YazMuh\\SkyBooker.API\\SkyBooker.API\\SkyBooker.API.csproj",
-              "RelativeToolTip": "SkyBooker.API\\SkyBooker.API.csproj",
+              "Title": "ReservationsController.cs",
+              "DocumentMoniker": "C:\\Users\\Eren\\Desktop\\YazilimMuhProje\\YazMuh\\SkyBooker.API\\SkyBooker.API\\Controllers\\ReservationsController.cs",
+              "RelativeDocumentMoniker": "SkyBooker.API\\Controllers\\ReservationsController.cs",
+              "ToolTip": "C:\\Users\\Eren\\Desktop\\YazilimMuhProje\\YazMuh\\SkyBooker.API\\SkyBooker.API\\Controllers\\ReservationsController.cs",
+              "RelativeToolTip": "SkyBooker.API\\Controllers\\ReservationsController.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAswIIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T12:33:05.708Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Reservation.cs",
+              "DocumentMoniker": "C:\\Users\\Eren\\Desktop\\YazilimMuhProje\\YazMuh\\SkyBooker.API\\SkyBooker.API\\Models\\Reservation.cs",
+              "RelativeDocumentMoniker": "SkyBooker.API\\Models\\Reservation.cs",
+              "ToolTip": "C:\\Users\\Eren\\Desktop\\YazilimMuhProje\\YazMuh\\SkyBooker.API\\SkyBooker.API\\Models\\Reservation.cs",
+              "RelativeToolTip": "SkyBooker.API\\Models\\Reservation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T10:35:58.929Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\Eren\\Desktop\\YazilimMuhProje\\YazMuh\\SkyBooker.API\\SkyBooker.Web\\Views\\Auth\\Register.cshtml",
+              "RelativeDocumentMoniker": "SkyBooker.Web\\Views\\Auth\\Register.cshtml",
+              "ToolTip": "C:\\Users\\Eren\\Desktop\\YazilimMuhProje\\YazMuh\\SkyBooker.API\\SkyBooker.Web\\Views\\Auth\\Register.cshtml",
+              "RelativeToolTip": "SkyBooker.Web\\Views\\Auth\\Register.cshtml",
+              "ViewState": "AgIAACAAAAAAAAAAAAAUwDgAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-28T09:28:33.279Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Eren\\Desktop\\YazilimMuhProje\\YazMuh\\SkyBooker.API\\SkyBooker.Web\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "SkyBooker.Web\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Eren\\Desktop\\YazilimMuhProje\\YazMuh\\SkyBooker.API\\SkyBooker.Web\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "SkyBooker.Web\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAwwHwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T12:56:39.509Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "UcusDuzenle.cshtml",
+              "DocumentMoniker": "C:\\Users\\Eren\\Desktop\\YazilimMuhProje\\YazMuh\\SkyBooker.API\\SkyBooker.Web\\Views\\Admin\\UcusDuzenle.cshtml",
+              "RelativeDocumentMoniker": "SkyBooker.Web\\Views\\Admin\\UcusDuzenle.cshtml",
+              "ToolTip": "C:\\Users\\Eren\\Desktop\\YazilimMuhProje\\YazMuh\\SkyBooker.API\\SkyBooker.Web\\Views\\Admin\\UcusDuzenle.cshtml",
+              "RelativeToolTip": "SkyBooker.Web\\Views\\Admin\\UcusDuzenle.cshtml",
+              "ViewState": "AgIAACIAAAAAAAAAAAAwwD0AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-27T20:40:41.962Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UserViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Eren\\Desktop\\YazilimMuhProje\\YazMuh\\SkyBooker.API\\SkyBooker.Web\\Models\\UserViewModel.cs",
+              "RelativeDocumentMoniker": "SkyBooker.Web\\Models\\UserViewModel.cs",
+              "ToolTip": "C:\\Users\\Eren\\Desktop\\YazilimMuhProje\\YazMuh\\SkyBooker.API\\SkyBooker.Web\\Models\\UserViewModel.cs",
+              "RelativeToolTip": "SkyBooker.Web\\Models\\UserViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-27T20:56:07.198Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ReservationViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Eren\\Desktop\\YazilimMuhProje\\YazMuh\\SkyBooker.API\\SkyBooker.Web\\Models\\ReservationViewModel.cs",
+              "RelativeDocumentMoniker": "SkyBooker.Web\\Models\\ReservationViewModel.cs",
+              "ToolTip": "C:\\Users\\Eren\\Desktop\\YazilimMuhProje\\YazMuh\\SkyBooker.API\\SkyBooker.Web\\Models\\ReservationViewModel.cs",
+              "RelativeToolTip": "SkyBooker.Web\\Models\\ReservationViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-27T19:17:24.315Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "UcusEkle.cshtml",
+              "DocumentMoniker": "C:\\Users\\Eren\\Desktop\\YazilimMuhProje\\YazMuh\\SkyBooker.API\\SkyBooker.Web\\Views\\Admin\\UcusEkle.cshtml",
+              "RelativeDocumentMoniker": "SkyBooker.Web\\Views\\Admin\\UcusEkle.cshtml",
+              "ToolTip": "C:\\Users\\Eren\\Desktop\\YazilimMuhProje\\YazMuh\\SkyBooker.API\\SkyBooker.Web\\Views\\Admin\\UcusEkle.cshtml",
+              "RelativeToolTip": "SkyBooker.Web\\Views\\Admin\\UcusEkle.cshtml",
+              "ViewState": "AgIAACAAAAAAAAAAAAAwwDsAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-27T19:45:47.617Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "FlightViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Eren\\Desktop\\YazilimMuhProje\\YazMuh\\SkyBooker.API\\SkyBooker.Web\\Models\\FlightViewModel.cs",
+              "RelativeDocumentMoniker": "SkyBooker.Web\\Models\\FlightViewModel.cs",
+              "ToolTip": "C:\\Users\\Eren\\Desktop\\YazilimMuhProje\\YazMuh\\SkyBooker.API\\SkyBooker.Web\\Models\\FlightViewModel.cs",
+              "RelativeToolTip": "SkyBooker.Web\\Models\\FlightViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T12:05:44.61Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Eren\\Desktop\\YazilimMuhProje\\YazMuh\\SkyBooker.API\\SkyBooker.Web\\Views\\Auth\\Login.cshtml",
+              "RelativeDocumentMoniker": "SkyBooker.Web\\Views\\Auth\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Eren\\Desktop\\YazilimMuhProje\\YazMuh\\SkyBooker.API\\SkyBooker.Web\\Views\\Auth\\Login.cshtml",
+              "RelativeToolTip": "SkyBooker.Web\\Views\\Auth\\Login.cshtml",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwCQAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-26T12:58:55.632Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Eren\\Desktop\\YazilimMuhProje\\YazMuh\\SkyBooker.API\\SkyBooker.Web\\Models\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "SkyBooker.Web\\Models\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\Eren\\Desktop\\YazilimMuhProje\\YazMuh\\SkyBooker.API\\SkyBooker.Web\\Models\\LoginViewModel.cs",
+              "RelativeToolTip": "SkyBooker.Web\\Models\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T12:55:21.019Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\Eren\\Desktop\\YazilimMuhProje\\YazMuh\\SkyBooker.API\\SkyBooker.API\\Models\\LoginDto.cs",
+              "RelativeDocumentMoniker": "SkyBooker.API\\Models\\LoginDto.cs",
+              "ToolTip": "C:\\Users\\Eren\\Desktop\\YazilimMuhProje\\YazMuh\\SkyBooker.API\\SkyBooker.API\\Models\\LoginDto.cs",
+              "RelativeToolTip": "SkyBooker.API\\Models\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T19:42:50.464Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Eren\\Desktop\\YazilimMuhProje\\YazMuh\\SkyBooker.API\\SkyBooker.API\\Models\\User.cs",
+              "RelativeDocumentMoniker": "SkyBooker.API\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\Eren\\Desktop\\YazilimMuhProje\\YazMuh\\SkyBooker.API\\SkyBooker.API\\Models\\User.cs",
+              "RelativeToolTip": "SkyBooker.API\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T10:31:32.431Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "20260314110023_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\Eren\\Desktop\\Yaz\u0131l\u0131mMuhProje\\YazMuh\\SkyBooker.API\\SkyBooker.API\\Migrations\\20260314110023_InitialCreate.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Yaz\u0131l\u0131mMuhProje\\YazMuh\\SkyBooker.API\\SkyBooker.API\\Migrations\\20260314110023_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\Eren\\Desktop\\Yaz\u0131l\u0131mMuhProje\\YazMuh\\SkyBooker.API\\SkyBooker.API\\Migrations\\20260314110023_InitialCreate.cs",
+              "RelativeToolTip": "..\\..\\..\\Yaz\u0131l\u0131mMuhProje\\YazMuh\\SkyBooker.API\\SkyBooker.API\\Migrations\\20260314110023_InitialCreate.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-03-14T08:30:04.081Z",
-              "EditorCaption": ""
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T11:00:23.657Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Eren\\Desktop\\YazilimMuhProje\\YazMuh\\SkyBooker.API\\SkyBooker.API\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "SkyBooker.API\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Eren\\Desktop\\YazilimMuhProje\\YazMuh\\SkyBooker.API\\SkyBooker.API\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "SkyBooker.API\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T10:38:36.789Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "20260314110430_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\Eren\\Desktop\\YazilimMuhProje\\YazMuh\\SkyBooker.API\\SkyBooker.API\\Migrations\\20260314110430_InitialCreate.cs",
+              "RelativeDocumentMoniker": "SkyBooker.API\\Migrations\\20260314110430_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\Eren\\Desktop\\YazilimMuhProje\\YazMuh\\SkyBooker.API\\SkyBooker.API\\Migrations\\20260314110430_InitialCreate.cs",
+              "RelativeToolTip": "SkyBooker.API\\Migrations\\20260314110430_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T11:04:30.572Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Flight.cs",
+              "DocumentMoniker": "C:\\Users\\Eren\\Desktop\\YazilimMuhProje\\YazMuh\\SkyBooker.API\\SkyBooker.API\\Models\\Flight.cs",
+              "RelativeDocumentMoniker": "SkyBooker.API\\Models\\Flight.cs",
+              "ToolTip": "C:\\Users\\Eren\\Desktop\\YazilimMuhProje\\YazMuh\\SkyBooker.API\\SkyBooker.API\\Models\\Flight.cs",
+              "RelativeToolTip": "SkyBooker.API\\Models\\Flight.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T10:32:41.919Z"
             }
           ]
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/VbsAtyYwJA=",
+  "dgSpecHash": "qoYPIuq5khw=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Eren\\Desktop\\YazılımMuhProje\\YazMuh\\SkyBooker.API\\SkyBooker.API\\SkyBooker.API.csproj",
+  "projectFilePath": "C:\\Users\\Eren\\Desktop\\YazilimMuhProje\\YazMuh\\SkyBooker.API\\SkyBooker.API\\SkyBooker.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Eren\\.nuget\\packages\\azure.core\\1.47.1\\azure.core.1.47.1.nupkg.sha512",
     "C:\\Users\\Eren\\.nuget\\packages\\azure.identity\\1.14.2\\azure.identity.1.14.2.nupkg.sha512",

@@ -6651,11 +6651,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Eren\\Desktop\\YazılımMuhProje\\YazMuh\\SkyBooker.API\\SkyBooker.API\\SkyBooker.API.csproj",
+      "projectUniqueName": "C:\\Users\\Eren\\Desktop\\YazilimMuhProje\\YazMuh\\SkyBooker.API\\SkyBooker.API\\SkyBooker.API.csproj",
       "projectName": "SkyBooker.API",
-      "projectPath": "C:\\Users\\Eren\\Desktop\\YazılımMuhProje\\YazMuh\\SkyBooker.API\\SkyBooker.API\\SkyBooker.API.csproj",
+      "projectPath": "C:\\Users\\Eren\\Desktop\\YazilimMuhProje\\YazMuh\\SkyBooker.API\\SkyBooker.API\\SkyBooker.API.csproj",
       "packagesPath": "C:\\Users\\Eren\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Eren\\Desktop\\YazılımMuhProje\\YazMuh\\SkyBooker.API\\SkyBooker.API\\obj\\",
+      "outputPath": "C:\\Users\\Eren\\Desktop\\YazilimMuhProje\\YazMuh\\SkyBooker.API\\SkyBooker.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -6680,12 +6680,15 @@
         }
       },
       "warningProperties": {
+        "noWarn": [
+          "NU1901"
+        ],
         "warnAsError": [
           "NU1605"
         ]
       },
       "restoreAuditProperties": {
-        "enableAudit": "true",
+        "enableAudit": "false",
         "auditLevel": "low",
         "auditMode": "all"
       },
