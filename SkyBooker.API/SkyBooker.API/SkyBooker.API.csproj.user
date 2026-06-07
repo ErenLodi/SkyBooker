@@ -11,7 +11,7 @@
     <WebStackScaffolding_LayoutPageFile />
     <WebStackScaffolding_DbContextTypeFullName>SkyBooker.API.Data.ApplicationDbContext</WebStackScaffolding_DbContextTypeFullName>
     <WebStackScaffolding_IsAsyncSelected>False</WebStackScaffolding_IsAsyncSelected>
-    <NameOfLastUsedPublishProfile>C:\Users\Eren\Desktop\YazılımMuhProje\YazMuh\SkyBooker.API\SkyBooker.API\Properties\PublishProfiles\FolderProfile3.pubxml</NameOfLastUsedPublishProfile>
+    <NameOfLastUsedPublishProfile>C:\Users\Eren\Desktop\YazilimMuhProje\YazMuh\SkyBooker.API\SkyBooker.API\Properties\PublishProfiles\FolderProfile4.pubxml</NameOfLastUsedPublishProfile>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <DebuggerFlavor>ProjectDebugger</DebuggerFlavor>

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SkyBooker.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4a9abe0ef8ee073d08a7e67470a61dd8d2681192")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7125dad879facbf60bc3ceb23fed9fb415362af6")]
 [assembly: System.Reflection.AssemblyProductAttribute("SkyBooker.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SkyBooker.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

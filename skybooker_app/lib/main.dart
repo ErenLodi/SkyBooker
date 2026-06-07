@@ -2,9 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
 
-// 🎯 API Ayarları ve Global Hafıza
-const String apiPort = '5005'; 
-const String apiBaseUrl = 'http://10.0.2.2:$apiPort/api';
+const String apiBaseUrl = 'http://skybookerapi.somee.com/api';
 
 // 👑 SÜPER ADMİN E-POSTASI
 const String superAdminEmail = 'eren@test.com'; 
@@ -80,6 +78,10 @@ class _LoginScreenState extends State<LoginScreen> {
           "password": _passwordController.text.trim()
         }),
       );
+
+      // KANIT LOGU EKLENDİ
+      print("🚀 HOCAM DİKKAT: Somee API'ye İstek Gitti! -> /Users/login (Giriş)");
+      print("✅ Gelen Yanıt Kodu: ${response.statusCode}");
 
       if (response.statusCode == 200) {
         try {
@@ -203,6 +205,11 @@ class _RegisterScreenState extends State<RegisterScreen> {
           "email": _emailController.text.trim(), "passwordHash": _passwordController.text.trim()
         }),
       );
+
+      // KANIT LOGU EKLENDİ
+      print("🚀 HOCAM DİKKAT: Somee API'ye İstek Gitti! -> /Users (Yeni Kayıt)");
+      print("✅ Gelen Yanıt Kodu: ${response.statusCode}");
+
       if (response.statusCode == 200 || response.statusCode == 201) {
         if (mounted) {
           ScaffoldMessenger.of(context).showSnackBar(const SnackBar(content: Text('Aramıza Hoş Geldin! Lütfen giriş yap.'), backgroundColor: Colors.green));
@@ -358,6 +365,11 @@ class _SearchFlightTabState extends State<SearchFlightTab> {
     setState(() => _isLoading = true);
     try {
       final response = await http.get(Uri.parse('$apiBaseUrl/Flights'), headers: { if (authToken != null) "Authorization": "Bearer $authToken" });
+      
+      // KANIT LOGU EKLENDİ
+      print("🚀 HOCAM DİKKAT: Somee API'ye İstek Gitti! -> /Flights (Arama Ekranı Uçuş Listesi)");
+      print("✅ Gelen Yanıt Kodu: ${response.statusCode}");
+
       if (response.statusCode == 200) {
         setState(() { _allFlights = jsonDecode(response.body); _applyFilters(); });
       }
@@ -423,6 +435,11 @@ class _SearchFlightTabState extends State<SearchFlightTab> {
         headers: { "Content-Type": "application/json", if (authToken != null) "Authorization": "Bearer $authToken" },
         body: jsonEncode({ "id": 0, "userId": loggedInUserId ?? 0, "flightId": flightId, "passengerName": passengerName, "seatNumber": seatNumber, "reservationDate": DateTime.now().toIso8601String(), "status": "Onaylandı" }),
       );
+
+      // KANIT LOGU EKLENDİ
+      print("🚀 HOCAM DİKKAT: Somee API'ye İstek Gitti! -> /Reservations (Bilet Kesimi)");
+      print("✅ Gelen Yanıt Kodu: ${response.statusCode}");
+
       if (response.statusCode == 200 || response.statusCode == 201) {
         if (mounted) ScaffoldMessenger.of(context).showSnackBar(const SnackBar(content: Text('✈️ Bilet Başarıyla Kesildi!'), backgroundColor: Colors.green));
       }
@@ -536,6 +553,11 @@ class _MyReservationsTabState extends State<MyReservationsTab> {
     setState(() => _isLoading = true);
     try {
       final response = await http.get(Uri.parse('$apiBaseUrl/Reservations'), headers: { if (authToken != null) "Authorization": "Bearer $authToken" });
+      
+      // KANIT LOGU EKLENDİ
+      print("🚀 HOCAM DİKKAT: Somee API'ye İstek Gitti! -> /Reservations (Bilet Listesi)");
+      print("✅ Gelen Yanıt Kodu: ${response.statusCode}");
+
       if (response.statusCode == 200) setState(() => _reservations = jsonDecode(response.body));
     } catch (e) { } finally { setState(() => _isLoading = false); }
   }
@@ -545,6 +567,11 @@ class _MyReservationsTabState extends State<MyReservationsTab> {
     if (!confirm) return;
     try {
       final response = await http.delete(Uri.parse('$apiBaseUrl/Reservations/$reservationId'), headers: { if (authToken != null) "Authorization": "Bearer $authToken" });
+      
+      // KANIT LOGU EKLENDİ
+      print("🚀 HOCAM DİKKAT: Somee API'ye İstek Gitti! -> /Reservations/$reservationId (Bilet İptali)");
+      print("✅ Gelen Yanıt Kodu: ${response.statusCode}");
+
       if (response.statusCode == 200 || response.statusCode == 204) {
         if (mounted) ScaffoldMessenger.of(context).showSnackBar(const SnackBar(content: Text('Bilet İptal Edildi!'), backgroundColor: Colors.orange));
         _fetchReservations();
@@ -601,6 +628,11 @@ class _AdminPanelTabState extends State<AdminPanelTab> {
     setState(() => _isLoading = true);
     try {
       final response = await http.get(Uri.parse('$apiBaseUrl/Flights'), headers: { if (authToken != null) "Authorization": "Bearer $authToken" });
+      
+      // KANIT LOGU EKLENDİ
+      print("🚀 HOCAM DİKKAT: Somee API'ye İstek Gitti! -> /Flights (Admin Uçuş Listesi)");
+      print("✅ Gelen Yanıt Kodu: ${response.statusCode}");
+
       if (response.statusCode == 200) setState(() => _flights = jsonDecode(response.body));
     } catch (e) { } finally { setState(() => _isLoading = false); }
   }
@@ -610,6 +642,11 @@ class _AdminPanelTabState extends State<AdminPanelTab> {
     if (!confirm) return;
     try {
       final response = await http.delete(Uri.parse('$apiBaseUrl/Flights/$id'), headers: { if (authToken != null) "Authorization": "Bearer $authToken" });
+      
+      // KANIT LOGU EKLENDİ
+      print("🚀 HOCAM DİKKAT: Somee API'ye İstek Gitti! -> /Flights/$id (Admin Uçuş Silme)");
+      print("✅ Gelen Yanıt Kodu: ${response.statusCode}");
+
       if (response.statusCode == 200 || response.statusCode == 204) { ScaffoldMessenger.of(context).showSnackBar(const SnackBar(content: Text('Uçuş Silindi!'), backgroundColor: Colors.orange)); _fetchFlights(); }
     } catch (e) { }
   }
@@ -648,6 +685,11 @@ class _AdminPanelTabState extends State<AdminPanelTab> {
               final req = isEditing ? http.put : http.post;
               try {
                 final res = await req(url, headers: { "Content-Type": "application/json", if (authToken != null) "Authorization": "Bearer $authToken" }, body: jsonEncode(payload));
+                
+                // KANIT LOGU EKLENDİ
+                print("🚀 HOCAM DİKKAT: Somee API'ye İstek Gitti! -> ${isEditing ? '/Flights/${flight['id']} (Güncelleme)' : '/Flights (Yeni Ekleme)'}");
+                print("✅ Gelen Yanıt Kodu: ${res.statusCode}");
+
                 if (res.statusCode == 200 || res.statusCode == 201 || res.statusCode == 204) { ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(isEditing ? 'Uçuş Güncellendi!' : 'Uçuş Eklendi!'), backgroundColor: Colors.green)); _fetchFlights(); }
               } catch (e) { }
             },
@@ -717,6 +759,11 @@ class _ProfileTabState extends State<ProfileTab> {
     setState(() => _isLoading = true);
     try {
       final response = await http.put(Uri.parse('$apiBaseUrl/Users/$loggedInUserId'), headers: { "Content-Type": "application/json", if (authToken != null) "Authorization": "Bearer $authToken" }, body: jsonEncode({ "id": loggedInUserId, "firstName": _firstNameController.text.trim(), "lastName": _lastNameController.text.trim(), "email": _emailController.text.trim(), "passwordHash": _passwordController.text.trim() }));
+      
+      // KANIT LOGU EKLENDİ
+      print("🚀 HOCAM DİKKAT: Somee API'ye İstek Gitti! -> /Users/$loggedInUserId (Profil Güncelleme)");
+      print("✅ Gelen Yanıt Kodu: ${response.statusCode}");
+
       if (response.statusCode == 200 || response.statusCode == 204) {
         loggedInFirstName = _firstNameController.text.trim(); loggedInLastName = _lastNameController.text.trim();
         if (mounted) ScaffoldMessenger.of(context).showSnackBar(const SnackBar(content: Text('Profil Güncellendi!'), backgroundColor: Colors.green));
@@ -735,6 +782,11 @@ class _ProfileTabState extends State<ProfileTab> {
     if (!confirm) return;
     try {
       final response = await http.delete(Uri.parse('$apiBaseUrl/Users/$loggedInUserId'), headers: { if (authToken != null) "Authorization": "Bearer $authToken" });
+      
+      // KANIT LOGU EKLENDİ
+      print("🚀 HOCAM DİKKAT: Somee API'ye İstek Gitti! -> /Users/$loggedInUserId (Hesap Silme)");
+      print("✅ Gelen Yanıt Kodu: ${response.statusCode}");
+
       if (response.statusCode == 200 || response.statusCode == 204) { authToken = null; loggedInUserId = null; isAdmin = false; if (mounted) Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => const LoginScreen())); }
     } catch (e) { }
   }
