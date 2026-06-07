@@ -8,8 +8,7 @@ Bu dokümanda, mobil uygulamanın REST API ile iletişimini sağlayan backend en
 
 ## Grup Üyelerinin Mobil Backend Görevleri
 
-1. [Nuri Eren Lodi'nin Mobil Backend Görevleri](Nuri-Eren-Lodi-Mobil-Backend-Gorevleri.md)
-
+1. [Nuri Eren Lodi'nin Mobil Backend Görevleri](./Nuri-Eren-Lodi/Nuri-Eren-Lodi-Mobil-Backend-Gorevleri.md)
 
 ---
 

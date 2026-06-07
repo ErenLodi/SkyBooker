@@ -4,7 +4,7 @@ Bu dokümanda, mobil uygulamanın kullanıcı arayüzü (UI) ve kullanıcı dene
 
 ## Grup Üyelerinin Mobil Frontend Görevleri
 
-1. [Nuri Eren Lodi'nin Mobil Frontend Görevleri](Nuri-Eren-Lodi-Mobil-Frontend-Gorevleri.md)
+1. [Nuri Eren Lodi'nin Mobil Frontend Görevleri](./Nuri-Eren-Lodi/Nuri-Eren-Lodi-Mobil-Frontend-Gorevleri.md)
 
 
 ---
